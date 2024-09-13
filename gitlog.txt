@@ -1,0 +1,15 @@
+3cd14f2 Merge pull request #1 from dsumsio/feature-dsumsio
+9b66aa8 added answers2final.txt
+b43c0f9 fixed merge conflict
+ca1543a change new_features.txt
+4c37c7b change new_features.txt
+3a6887e Merge branch 'features'
+48f64f3 update file1
+9592de0 update new_features
+33ad7bf add empty file
+a8530e2 modify .gitignore
+f4caaeb add .gitignore
+3b2cd6a create ReadMe file
+4018214 changes to file2
+c4e3c97 changes to file1
+1440394 create new files

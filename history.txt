@@ -1,0 +1,103 @@
+    1  git --version
+    2  git --version
+    5  git --list
+    6  git config user.name
+    7  git config --list
+    9  git --version
+   10  git config -- global init.defaultBranch main
+   11  git config -- global init.defaultBranch main
+   12  git config --global init.defaultBranch main
+   27  git status
+   55  cd git-practice-jerhomie2/
+   60  cd git-practice-jerhomie2/
+   65  git status
+   66  git add .
+   67  git status
+   76  git status
+   77  git add .
+   78  git status
+   79  git commit -m "create new files"
+   80  git status
+   81  git log
+   83  git config --global core.editor "code --wait"
+   84  git status
+   87  git status
+   90  git log
+   98  cd git-practice-jerhomie2/
+  100  git status
+  101  git log
+  103  git log
+  104  git status
+  106  git add file_2.txt 
+  107  git restore --staged file_2.txt 
+  108  git status
+  109  git add file_1.txt 
+  110  git commit -m "changes to file1"
+  111  git status
+  112  git add file_2.txt 
+  113  git commit -m "changes to file2"
+  114  git log
+  116  git log --oneline
+  119  git add .
+  120  git commit -m "create ReadMe file"
+  121  git log -oneline
+  122  git log --oneline
+  123  touch .gitignore
+  125  git add .
+  126  git commit -m "add .gitignore"
+  127  nano .gitignore
+  128  git status
+  129  git add .
+  130  git commit -m "modify .gitignore"
+  132  git status
+  134  git status
+  135  git branch
+  136  git switch -c features
+  137  git branch
+  138  git log
+  140  git add .
+  141  git commit -m "add empty file"
+  143  git add .
+  144  git commit -m "update new_features"
+  145  git switch main
+  146  git remote add origin https://github.com/jerhomie2/lab1practice-jerhomie2.git
+  147  git push -u origin main
+  148  git branch
+  151  git add .
+  152  git commit -m "update file1"
+  153  git branch
+  154  git merge features
+  157  git log
+  158  git log --oneline
+  160  cd Stat386/git-practice-jerhomie2/
+  162  git log
+  163  git log --oneline
+  165  git add .
+  166  git commit -m "change new_features.txt"
+  167  git switch features 
+  170  git add .
+  171  git commit -m "change new_features.txt"
+  172  git switch main
+  173  git merge features
+  174  git merge features
+  175  git add .
+  176  git status
+  177  git commit -m "fixed merge conflict"
+  180  git branch -d features
+  181  git status
+  182  git push
+  186  git clone git@github.com:jerhomie2/git-practice-dsumsio.git
+  187  git branch
+  189  cd git-practice-dsumsio/
+  191  git branch
+  192  git switch feature-jerhomie2
+  193  git branch feature-jerhomie2
+  194  git switch feature-jerhomie2 
+  197  git add .
+  198  git commit -m "made jaromsfile"
+  199  git push origin feature-jerhomie2 
+  203  cd git-practice-jerhomie2/
+  205  git pull
+  207  git log --online > gitlog.txt
+  208  git log --oneline > gitlog.txt
+  209  history | grep git > history.txt
